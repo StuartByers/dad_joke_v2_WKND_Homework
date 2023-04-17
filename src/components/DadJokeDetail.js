@@ -12,7 +12,7 @@ const DadJokeDetail = ({ dadjoke }) => {
     <div className='dadjoke-main'>
       <div className="dadjoke-setup">"{dadjoke.setup}"</div>
       {showPunchline && (
-        <div className="dadjoke-punchline">"{dadjoke.punchline}"</div>
+        <div className="dadjoke-punchline">"{dadjoke.punchline}...HaHaHa"</div>
       )}
       <button className="punchline-button" onClick={handleButtonClick}>?</button>
     </div>
