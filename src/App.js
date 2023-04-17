@@ -1,25 +1,14 @@
-import logo from './logo.svg';
+import React from 'react';
+import DadJokeContainer from './containers/DadJokeContainer';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="wrapper">
+      <h1 className="intro">"Tell me a joke Dad..."</h1>
+      <DadJokeContainer />
     </div>
   );
 }
 
-export default App;
+export default App

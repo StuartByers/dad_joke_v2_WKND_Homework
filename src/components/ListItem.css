@@ -1,0 +1,10 @@
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.clickable-li:hover {
+  cursor: pointer;
+}
